@@ -1,0 +1,168 @@
+{
+   "abstract" : "Workflow manager for loading biological databases",
+   "author" : [
+      "Nat Goodman <natg@shore.net>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "Module::Build version 0.4, CPAN::Meta::Converter version 2.112150",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Data-Workflow",
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Exporter" : 0,
+            "Test::Deep" : 0,
+            "Test::More" : "0.88"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "DBI" : "1.604",
+            "Module::Build" : "0.4"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Carp" : 0,
+            "Class::AutoClass" : "1.55",
+            "Class::AutoDB" : "1.26",
+            "Class::Singleton" : "1.4",
+            "Config::IniFiles" : "2.57",
+            "DBI" : "1.604",
+            "Data::Babel" : "1.1",
+            "File::Basename" : 0,
+            "File::Spec" : "3.26",
+            "Graph" : "0.91",
+            "Hash::AutoHash" : "1.16",
+            "Hash::AutoHash::Args" : "1.16",
+            "Hash::AutoHash::MultiValued" : "1.16",
+            "Hash::AutoHash::Record" : "1.16",
+            "List::MoreUtils" : "0.33",
+            "Template" : "2.2"
+         }
+      }
+   },
+   "provides" : {
+      "Data::Workflow" : {
+         "file" : "lib/Data/Workflow.pm",
+         "version" : "0.10_01"
+      },
+      "Data::Workflow::BFSort" : {
+         "file" : "lib/Data/Workflow/BFSort.pm",
+         "version" : 0
+      },
+      "Data::Workflow::GraphAlgorithms" : {
+         "file" : "lib/Data/Workflow/GraphAlgorithms.pm",
+         "version" : 0
+      },
+      "Data::Workflow::Log" : {
+         "file" : "lib/Data/Workflow/Log.pm",
+         "version" : 0
+      },
+      "Data::Workflow::Log::Object" : {
+         "file" : "lib/Data/Workflow/Log/Object.pm",
+         "version" : 0
+      },
+      "Data::Workflow::Namespace" : {
+         "file" : "lib/Data/Workflow/Namespace.pm",
+         "version" : 0
+      },
+      "Data::Workflow::Namespace::database" : {
+         "file" : "lib/Data/Workflow/Namespace/database.pm",
+         "version" : 0
+      },
+      "Data::Workflow::Namespace::null" : {
+         "file" : "lib/Data/Workflow/Namespace/null.pm",
+         "version" : 0
+      },
+      "Data::Workflow::Namespace::path" : {
+         "file" : "lib/Data/Workflow/Namespace/path.pm",
+         "version" : 0
+      },
+      "Data::Workflow::Namespace::uri" : {
+         "file" : "lib/Data/Workflow/Namespace/uri.pm",
+         "version" : 0
+      },
+      "Data::Workflow::Resource" : {
+         "file" : "lib/Data/Workflow/Resource.pm",
+         "version" : 0
+      },
+      "Data::Workflow::ResourcePool" : {
+         "file" : "lib/Data/Workflow/ResourcePool.pm",
+         "version" : 0
+      },
+      "Data::Workflow::Step" : {
+         "file" : "lib/Data/Workflow/Step.pm",
+         "version" : 0
+      },
+      "Data::Workflow::Step::cat" : {
+         "file" : "lib/Data/Workflow/Step/cat.pm",
+         "version" : 0
+      },
+      "Data::Workflow::Step::copy" : {
+         "file" : "lib/Data/Workflow/Step/copy.pm",
+         "version" : 0
+      },
+      "Data::Workflow::Step::copy::Operation" : {
+         "file" : "lib/Data/Workflow/Step/copy/Operation.pm",
+         "version" : 0
+      },
+      "Data::Workflow::Step::database" : {
+         "file" : "lib/Data/Workflow/Step/database.pm",
+         "version" : 0
+      },
+      "Data::Workflow::Step::database::append" : {
+         "file" : "lib/Data/Workflow/Step/database/append.pm",
+         "version" : 0
+      },
+      "Data::Workflow::Step::database::create" : {
+         "file" : "lib/Data/Workflow/Step/database/create.pm",
+         "version" : 0
+      },
+      "Data::Workflow::Step::database::create_schema" : {
+         "file" : "lib/Data/Workflow/Step/database/create_schema.pm",
+         "version" : 0
+      },
+      "Data::Workflow::Step::grep" : {
+         "file" : "lib/Data/Workflow/Step/grep.pm",
+         "version" : 0
+      },
+      "Data::Workflow::Step::perl" : {
+         "file" : "lib/Data/Workflow/Step/perl.pm",
+         "version" : 0
+      },
+      "Data::Workflow::Step::touch" : {
+         "file" : "lib/Data/Workflow/Step/touch.pm",
+         "version" : 0
+      },
+      "Data::Workflow::Step::untar" : {
+         "file" : "lib/Data/Workflow/Step/untar.pm",
+         "version" : 0
+      },
+      "Data::Workflow::Util" : {
+         "file" : "lib/Data/Workflow/Util.pm",
+         "version" : 0
+      },
+      "Data::Workflow::Version" : {
+         "file" : "lib/Data/Workflow/Version.pm",
+         "version" : 0
+      },
+      "Data::Workflow::VersionMap" : {
+         "file" : "lib/Data/Workflow/VersionMap.pm",
+         "version" : 0
+      }
+   },
+   "release_status" : "testing",
+   "resources" : {
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ]
+   },
+   "version" : "0.10_01"
+}
